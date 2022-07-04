@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/SSA-Modular.iml" filepath="$PROJECT_DIR$/.idea/modules/SSA-Modular.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app/SSA-Modular.app.iml" filepath="$PROJECT_DIR$/.idea/modules/app/SSA-Modular.app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/core/SSA-Modular.core.iml" filepath="$PROJECT_DIR$/.idea/modules/core/SSA-Modular.core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/SSA-Modular.data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/SSA-Modular.data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/domain/SSA-Modular.domain.iml" filepath="$PROJECT_DIR$/.idea/modules/domain/SSA-Modular.domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/main/SSA-Modular.main.iml" filepath="$PROJECT_DIR$/.idea/modules/main/SSA-Modular.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/navigation/SSA-Modular.navigation.iml" filepath="$PROJECT_DIR$/.idea/modules/navigation/SSA-Modular.navigation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/search/SSA-Modular.search.iml" filepath="$PROJECT_DIR$/.idea/modules/search/SSA-Modular.search.iml" />
+    </modules>
+  </component>
+</project>
