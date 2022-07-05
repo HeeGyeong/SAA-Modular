@@ -38,16 +38,12 @@ class SearchFragment : Fragment() {
         return binding!!.root
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
-        super.onViewCreated(view, savedInstanceState)
-    }
-
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         // TODO: Use the ViewModel
         viewModel = getViewModel()
-        // lifecycle 설정해주지 않으면 원하는 동작을 하지 않음.
-        _binding!!.lifecycleOwner = this
+        // lifecycle 설정해주지 않으면 liveData 사용 불가능
+        _binding!!.lifecycleOwner = this.viewLifecycleOwner
         // DataBinding
         _binding!!.vm = viewModel
 
