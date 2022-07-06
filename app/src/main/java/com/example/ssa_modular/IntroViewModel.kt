@@ -1,5 +1,6 @@
 package com.example.ssa_modular
 
+import android.os.Bundle
 import com.example.core.BaseApplication
 import com.example.core.BaseViewModel
 import kotlinx.coroutines.CoroutineScope
@@ -21,5 +22,11 @@ class IntroViewModel : BaseViewModel() {
         }
     }
 
-    fun returnData(): Boolean = false
+    var insertData: Bundle? = null
+
+    fun setIntentData(data: Bundle?) {
+        insertData = data
+    }
+
+    fun getIntentData(): Bundle? = insertData
 }

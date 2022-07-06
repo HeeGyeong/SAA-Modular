@@ -23,6 +23,7 @@ class IntroFragment : Fragment() {
     private val binding get() = _binding!!
 
     private var viewModel: IntroViewModel? = null
+    private var intentData: Bundle? = null
 
     override fun onCreateView(
         inflater: LayoutInflater,
@@ -53,7 +54,7 @@ class IntroFragment : Fragment() {
                             Toast.LENGTH_SHORT
                         ).show()
                         viewModel!!.setPermission()
-                        findNavController().navigate(com.example.navigation.R.id.mainFragment)
+                        findNavController().navigate(com.example.navigation.R.id.mainFragment, intentData)
                     }
 
                     override fun onPermissionDenied(deniedPermissions: List<String>) {
@@ -63,7 +64,7 @@ class IntroFragment : Fragment() {
                             Toast.LENGTH_SHORT
                         ).show()
                         viewModel!!.setPermission()
-                        findNavController().navigate(com.example.navigation.R.id.mainFragment)
+                        findNavController().navigate(com.example.navigation.R.id.mainFragment, intentData)
                     }
                 }
 
@@ -86,7 +87,7 @@ class IntroFragment : Fragment() {
                     .check()
             } else {
                 delay(2000)
-                findNavController().navigate(com.example.navigation.R.id.mainFragment)
+                findNavController().navigate(com.example.navigation.R.id.mainFragment, intentData)
             }
         }
     }
@@ -95,6 +96,12 @@ class IntroFragment : Fragment() {
         super.onActivityCreated(savedInstanceState)
         Log.d("callCheck", "onActivityCreated 3rd call")
         viewModel = getViewModel()
+
+        val insertData = viewModel!!.getIntentData()
+        if (insertData != null) {
+            intentData = viewModel!!.getIntentData()
+        }
+
         permissionCheck()
     }
 

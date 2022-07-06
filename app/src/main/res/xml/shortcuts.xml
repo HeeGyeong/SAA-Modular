@@ -1,0 +1,26 @@
+<shortcuts xmlns:android="http://schemas.android.com/apk/res/android">
+    <shortcut
+        android:shortcutId="manage_shortcuts"
+        android:enabled="true"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:shortcutShortLabel="@string/short_label"
+        android:shortcutLongLabel="@string/short_label"
+        android:shortcutDisabledMessage="@string/short_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.ssa_modular"
+            android:targetClass="com.example.ssa_modular.MainActivity" />
+    </shortcut>
+
+    <shortcut
+        android:shortcutId="manage_shortcuts2"
+        android:icon="@drawable/ic_launcher_background"
+        android:shortcutShortLabel="@string/long_label"
+        android:shortcutLongLabel="@string/long_label"
+        android:shortcutDisabledMessage="@string/long_label">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:targetPackage="com.example.ssa_modular"
+            android:targetClass="com.example.ssa_modular.MainActivity" />
+    </shortcut>
+</shortcuts>

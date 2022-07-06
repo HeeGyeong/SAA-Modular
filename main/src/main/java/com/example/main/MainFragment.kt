@@ -1,11 +1,13 @@
 package com.example.main
 
 import android.os.Bundle
+import android.util.Log
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import android.widget.Toast
 import androidx.activity.OnBackPressedCallback
+import androidx.core.view.get
 import androidx.fragment.app.Fragment
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
@@ -56,11 +58,36 @@ class MainFragment : Fragment() {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
         initCallBack()
+
+        Log.d("shortCutLog", "IN MainFragment destination : ${arguments?.getString("destination")}")
+        Log.d("shortCutLog", "IN MainFragment other : ${arguments?.getString("other")}")
+
+        val intentData = arguments?.getString("destination")
+
+        if (intentData != null) {
+            setIntentData(intentData)
+        }
     }
 
     // SubFragment간의 이동이 아닌 ParentFragment간의 이동을 위해 사용.
     fun moveSearchFragment() {
         findNavController().navigate(com.example.navigation.R.id.searchFragment)
+    }
+
+    private fun setIntentData(intentData: String) {
+        val naviIndex = when (intentData) {
+            "TextFragment" -> {
+                1
+            }
+            "MoveFragment" -> {
+                2
+            }
+            else -> {
+                0
+            }
+        }
+
+        binding.navView.menu[naviIndex].onNavDestinationSelected(navController!!)
     }
 
     private var backKeyPressedTime: Long = 0

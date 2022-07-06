@@ -1,4 +1,7 @@
 <resources>
-    <string name="app_name">SSA-Modular</string>
+    <string name="app_name">SAA-Modular</string>
 
+    <string name="short_label">short_label</string>
+    <string name="long_label">long_label</string>
+    <string name="disable_msg">disable_msg</string>
 </resources>
