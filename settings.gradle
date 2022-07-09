@@ -12,7 +12,7 @@ dependencyResolutionManagement {
         mavenCentral()
     }
 }
-rootProject.name = "SSA-Modular"
+rootProject.name = "SAA-Modular"
 include ':app'
 include ':navigation'
 include ':main'

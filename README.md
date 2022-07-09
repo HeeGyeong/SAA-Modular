@@ -1,4 +1,4 @@
-# SSA-Modular
+# SAA-Modular
 
 Sinlge Activity Architecture를 구현해본 Sample Project 입니다.
 
