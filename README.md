@@ -19,4 +19,4 @@ MainFragment에서는 ParentFragment를, Home,Move,Text Fragment에서는 ChildF
 ## DI
 3.2 버전의 Koin을 사용하여 의존성을 주입해 주었습니다.
 
-[Tistory Blog](https://heegs.tistory.com "Tistory Blog")
+[Tistory Blog](https://heegs.tistory.com/128 "SAA-Modular Sample")
