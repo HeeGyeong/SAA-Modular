@@ -1,6 +1,7 @@
 plugins {
     id 'com.android.library'
     id 'org.jetbrains.kotlin.android'
+    id 'androidx.navigation.safeargs'
 }
 
 android {
@@ -30,6 +31,8 @@ android {
 }
 
 dependencies {
+    // navigation에서 argument에 User Class를 사용해야하기 때문에 domain Layer에 대한 참조가 필요하다.
+    implementation project(':domain')
 
     implementation 'androidx.core:core-ktx:1.7.0'
     implementation 'androidx.appcompat:appcompat:1.4.2'

@@ -1,9 +1,8 @@
-# SAA-Modular
+# SSA-Modular
 
-## Description
 Sinlge Activity Architecture를 구현해본 Sample Project 입니다.
 
-[Modular Architecture Sample Project](https://github.com/HeeGyeong/ModuleArchitecture)에서 사용한 구조를 그대로 가져와서 사용하였으며,
+Modular Architecture Sample Project에서 사용한 구조를 그대로 가져와서 사용하였으며,
 
 App Module에 하나의 Activity를 두고, Jetpack Navigation을 사용하여 여러개의 Module을 연결하여 사용하였습니다.
 
@@ -17,12 +16,7 @@ ParentFragment와 ChildFragment를 사용하는 방법은 Main Module에서 확�
 
 MainFragment에서는 ParentFragment를, Home,Move,Text Fragment에서는 ChildFragment를 사용하도록 하였습니다.
 
-*Navigation Module*은 따로 빼내지 않고 Core Module 등에 합쳐서 사용해도 되지만, Sample Project이기 때문에 직관적인 확인을 위하여 따로 빼내었습니다.
-
 ## DI
 3.2 버전의 Koin을 사용하여 의존성을 주입해 주었습니다.
 
-## Shortcut
-Main Module의 HomeFragment에 Shortcut에 대한 Sample Code를 작성해두었습니다.
-
-[Tistory Blog](https://heegs.tistory.com/128 "SAA-Modular Sample")
+[Tistory Blog](https://heegs.tistory.com "Tistory Blog")

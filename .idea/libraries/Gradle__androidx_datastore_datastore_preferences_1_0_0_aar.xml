@@ -4,10 +4,14 @@
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/res" />
+      <root url="file://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/2b7ad40bcbe24ca0d371a7e442aaf5b8/transformed/datastore-preferences-1.0.0/AndroidManifest.xml" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences/1.0.0/4565ce3651f3eb5f848481acb16a13defa88ab53/datastore-preferences-1.0.0-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/androidx.datastore/datastore-preferences/1.0.0/4565ce3651f3eb5f848481acb16a13defa88ab53/datastore-preferences-1.0.0-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

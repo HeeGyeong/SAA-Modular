@@ -4,10 +4,13 @@
       <root url="jar://$PROJECT_DIR$/../.gradle/caches/transforms-3/6ddf2854891938975fbfa48322e2bcd6/transformed/viewbinding-7.1.2/jars/classes.jar!/" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/6ddf2854891938975fbfa48322e2bcd6/transformed/viewbinding-7.1.2/res" />
       <root url="file://$PROJECT_DIR$/../.gradle/caches/transforms-3/6ddf2854891938975fbfa48322e2bcd6/transformed/viewbinding-7.1.2/AndroidManifest.xml" />
+      <root url="jar://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/6ddf2854891938975fbfa48322e2bcd6/transformed/viewbinding-7.1.2/jars/classes.jar!/" />
+      <root url="file://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/6ddf2854891938975fbfa48322e2bcd6/transformed/viewbinding-7.1.2/AndroidManifest.xml" />
+      <root url="file://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/transforms-3/6ddf2854891938975fbfa48322e2bcd6/transformed/viewbinding-7.1.2/res" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>
-      <root url="jar://$PROJECT_DIR$/../.gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.1.2/3c115649c39a908bf3df1fd99f8b21f3a6e12d80/viewbinding-7.1.2-sources.jar!/" />
+      <root url="jar://$PROJECT_DIR$/../AppUnifyKotlin_Android/AppUnifyKotlin/gradle/caches/modules-2/files-2.1/androidx.databinding/viewbinding/7.1.2/3c115649c39a908bf3df1fd99f8b21f3a6e12d80/viewbinding-7.1.2-sources.jar!/" />
     </SOURCES>
   </library>
 </component>

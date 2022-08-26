@@ -10,6 +10,7 @@ import android.widget.Toast
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.lifecycleScope
 import androidx.navigation.fragment.findNavController
+import com.example.domain.model.User
 import com.example.ssa_modular.databinding.FragmentIntroBinding
 import com.gun0912.tedpermission.PermissionListener
 import com.gun0912.tedpermission.normal.TedPermission
@@ -29,7 +30,7 @@ class IntroFragment : Fragment() {
         inflater: LayoutInflater,
         container: ViewGroup?,
         savedInstanceState: Bundle?,
-    ): View? {
+    ): View {
         Log.d("callCheck", "onCreateView 1st call")
         _binding = FragmentIntroBinding.inflate(inflater, container, false)
         // DI를 사용하지 않고 ViewModel 사용할 때 사용.
@@ -87,7 +88,17 @@ class IntroFragment : Fragment() {
                     .check()
             } else {
                 delay(2000)
-                findNavController().navigate(com.example.navigation.R.id.mainFragment, intentData)
+                val userData = ArrayList<User>()
+                userData.add(User(0,"1"))
+                userData.add(User(1,"2"))
+
+
+                // Use Safe-args.
+                val action = IntroFragmentDirections.actionIntroToMain(userData.toTypedArray())
+                findNavController().navigate(action)
+
+                // Use Bundle
+//                findNavController().navigate(com.example.navigation.R.id.mainFragment, intentData)
             }
         }
     }

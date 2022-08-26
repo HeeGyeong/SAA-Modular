@@ -20,6 +20,9 @@
         <action
             android:id="@+id/action_main_to_search"
             app:destination="@id/searchFragment" />
+        <argument
+            android:name="UserData"
+            app:argType="com.example.domain.model.User[]" />
     </fragment>
 
     <fragment
